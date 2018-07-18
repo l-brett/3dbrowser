@@ -1,0 +1,23 @@
+{
+  "name": "3DBrowser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Leon Brett",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "@wildpeaks/three-webpack-plugin": "^2.0.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "three": "^0.94.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  }
+}
